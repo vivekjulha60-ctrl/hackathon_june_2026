@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Portal</title>
+</head>
+
+<body>
+	<h1>Student Registration Portal</h1>
+
+	<p>
+		Welcome to your registration portal!
+		
+	</p>
+
+	<hr>
+	
+	<table border="1">
+		<tr>
+			<th>Course Name</th>
+			<th>Duration</th>
+			<th>Level</th>
+		</tr>
+		
+		<tr>
+			<td>HTML Basic</td>
+			<td>4 Weeks</td>
+			<td>Beginner</td>		
+		</tr>
+		
+		<tr>
+			<td>CSS Mastery</td>
+			<td>6 Weeks</td>
+			<td>Intermediate</td>		
+		</tr>
+
+		<tr>
+			<td>JavaScript</td>
+			<td>8 Weeks</td>
+			<td>Advanced</td>		
+		</tr>
+	</table>
+
+<br>
+
+	<form>
+     		<label><h3>Personal Information:</h3></label>
+		
+		<label>Full Name</label><br>
+     		<input type="text" placeholder="Enter your name"><br><br>
+
+     		<label>Email</label><br>
+     		<input type="Email" placeholder="Enter your email"><br><br>
+
+		<label>Password</label><br>
+     		<input type="Password" placeholder="Enter your password"><br><br>
+
+		<label>Date of Birth</label><br>
+     		<input type="date"><br><br>
+
+		<label>Gender:</label><br>
+       		<input type="radio" name="gender" id="male" value="male">
+        	<label for="male">Male</label><br>
+        	<input type="radio" name="gender" id="female" value="female">
+        	<label for="female">Female</label><br>
+        	<input type="radio" name="gender" id="other" value="other">
+        	<label for="other">other</label><br><br>
+
+		<label><h3>Course Selection: </h3></label>
+      			<select id="course" name="course">
+				<option value="HTML Basics">HTML Basics</option>
+            			<option value="CSS Mastery">CSS Mastery</option>
+            			<option value="JavaScript">JavaScript</option>
+                    	</select>
+
+		<label><h3>Skills:</h3></label>
+				<input type="checkbox">
+				<label class="checkbox"> Problem Solving</label><br>
+				<input type="checkbox">
+				<label class="checkbox">Team Work</label><br>
+				<input type="checkbox">
+				<label class="checkbox">Communication</label><br>
+
+		<label><h3>Additional Comments:</h3></label>
+     				<textarea rows="4" cols="30"></textarea><br><br>
+     				<button type="submit">Submit</button>
+				<button type="submit">Reset</button>
+
+
+</form>
+
+<br>
+
+</body>
+
+<footer>
+<p>© 2026 Student Portal. All Rights Reserved.</p>
+</footer>
+
+</html>
+
+
