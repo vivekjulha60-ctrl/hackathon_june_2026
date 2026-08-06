@@ -1,0 +1,15 @@
+<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MedBridge logo">
+  <defs>
+    <linearGradient id="arc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1F7A5C"/>
+      <stop offset="100%" stop-color="#FF6F59"/>
+    </linearGradient>
+  </defs>
+  <!-- two nodes bridged by a signal arc: patient <-> doctor -->
+  <circle cx="8" cy="26" r="6" fill="#1F7A5C"/>
+  <circle cx="32" cy="14" r="6" fill="#FF6F59"/>
+  <path d="M 8 20 Q 20 4 32 8" fill="none" stroke="url(#arc)" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="46" y="27" font-family="'Fraunces','Georgia',serif" font-size="20" font-weight="600" fill="#10241F">
+    Med<tspan fill="#1F7A5C">Bridge</tspan>
+  </text>
+</svg>
